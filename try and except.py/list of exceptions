@@ -1,0 +1,22 @@
+| Exception Name           | Description                                                  |
+|--------------------------|--------------------------------------------------------------|
+| Exception                | Base class for all exceptions                                 |
+| AssertionError           | Raised when an assert statement fails                         |
+| AttributeError           | Raised when an attribute reference or assignment fails        |
+| EOFError                 | Raised when input() or raw_input() reaches EOF                |
+| FileNotFoundError        | Raised when a file or directory is requested but not found   |
+| ImportError              | Raised when import statement fails to find a module           |
+| IndexError               | Raised when a sequence subscript is out of range              |
+| KeyError                 | Raised when a dictionary key is not found                    |
+| KeyboardInterrupt        | Raised when the user interrupts execution (Ctrl+C)            |
+| MemoryError              | Raised when an operation runs out of memory                   |
+| NameError                | Raised when a local or global name is not found              |
+| NotImplementedError      | Raised when an abstract method is not implemented            |
+| OSError                  | Base class for I/O-related errors (subclasses include FileNotFoundError, PermissionError, etc.) |
+| OverflowError            | Raised when a calculation exceeds maximum limit for a numeric type |
+| SyntaxError              | Raised when a syntax error occurs (invalid Python code)       |
+| IndentationError         | Raised when indentation is not consistent                     |
+| TabError                 | Raised when indentation contains tabs and spaces             |
+| TypeError                | Raised when an operation or function is applied to an object of inappropriate type |
+| ValueError               | Raised when a function receives an argument of correct type but with an inappropriate value |
+| ZeroDivisionError        | Raised when division or modulo by zero is encountered         |
